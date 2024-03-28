@@ -16,7 +16,7 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    # Set params based on the existing app deployment
+    # Set params based on the existing app deployment 1
     - name: Set params
       id: params
       env:
