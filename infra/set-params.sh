@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# get the current release commit id
+# get the current release commit id for the demo
 commit_id=$(git rev-parse --short $GITHUB_SHA)
 echo "Commit ID: $commit_id"
 
